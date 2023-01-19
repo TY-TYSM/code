@@ -1,0 +1,151 @@
+ /* Universal box sizing */
+ * {   
+    box-sizing: border-box;
+    
+    }
+     
+    /* Style the header */
+    .header {       
+        background-color: #566c6f;
+        overflow: hidden;   
+        text-align: center;   
+        padding:0px
+
+    }
+    
+    p  { 
+        font-size: 20px;
+
+    }
+
+    .intro {
+        display:inline-block;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    
+            
+            
+          
+    
+    .rest {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 50%;
+        float: left;
+
+    }
+
+    h1 {
+        color: black;
+        justify-items: center;
+        text-align: center;
+        font-size: 40px;
+    }
+        
+     
+    .b {
+        display: block;
+        width: 300px;
+    }
+   
+
+    body {
+        background-color: #dee4e6;
+    }
+
+   p, h2, h3 {color: black;} 
+
+    h2 {
+        text-align: center;
+    }
+    
+    /* Style the links inside the navigation bar */
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+     
+    /* Change color on hover */
+    .topnav a:hover {   
+    background-color: #a5b6b8;
+        color:black;
+    }
+
+   .topnav[aria-current="page"]{
+    text-decoration: underline;
+   }
+   
+ iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+img, iframe  {
+    
+    
+    float: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-style: solid;
+            border-color: #968066;
+            border-width:20px;
+            
+  
+    
+}
+
+.one {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.appetizers, .mains {
+    display:flex;
+}
+
+
+.item {
+    display: flex;
+    background-color: black;
+    justify-content:center;
+  
+}
+
+footer p {
+    color: white;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+footer img {
+
+    border: none;
+    width: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+footer { 
+   
+    background-color: #566c6f;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 5px;
+
+}
