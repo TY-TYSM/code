@@ -149,3 +149,10 @@ footer {
     margin-top: 5px;
 
 }
+
+@media only screen and (max-width: 400px) {
+    
+    .rest {
+      width:100%;
+    }
+  }
