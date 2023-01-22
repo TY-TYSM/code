@@ -94,10 +94,18 @@ img, iframe  {
     
     
    flex-wrap: wrap;
-   width: 550px;
+   width: auto;
    margin-right: auto;
    margin-top: 20px;
    margin-bottom: 20px;
+}
+.c {
+    flex-wrap: wrap;
+   width: 700px;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
 }
 .b {
     display: block;
@@ -136,8 +144,11 @@ footer {
     
     .a img {
       max-width: 100%;
-      justify-items: center;
       
+      
+    }
+    .button {
+        max-width: 100%;
     }
 
     footer img {
@@ -148,6 +159,7 @@ footer {
 
     .header a{
         float:none;
+        margin-bottom: 5px;
     }
   }
 
