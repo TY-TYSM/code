@@ -156,9 +156,13 @@ footer {
         margin-bottom: 5px;
     }
 
+    * {
+        justify-items: center;
+    }
+
     .header a{
         float:none;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
   }
 
