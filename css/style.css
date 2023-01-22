@@ -139,7 +139,7 @@ footer {
     
     .a img {
       max-width: 95%;
-      padding-top: 50%;
+      justify-content: center;
       border: none;
     }
   }
