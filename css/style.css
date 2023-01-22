@@ -138,9 +138,9 @@ footer {
 @media only screen and (max-width: 400px) {
     
     .a img {
-      max-width: 95%;
-      justify-content: center;
-      border: none;
+      max-width: 100%;
+      justify-items: center;
+      
     }
   }
 
