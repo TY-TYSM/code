@@ -28,10 +28,7 @@
         font-size: 1.85em;
     }
                 
-    
-    
         
-   
     body {
         background-color: #dee4e6;
     }
@@ -141,6 +138,10 @@ footer {
       max-width: 100%;
       justify-items: center;
       
+    }
+
+    .header a{
+        float:none;
     }
   }
 
