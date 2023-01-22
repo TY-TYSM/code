@@ -140,6 +140,7 @@ footer {
     img {
       max-width: 95%;
       padding-top: 50%;
+      border: none;
     }
   }
 
