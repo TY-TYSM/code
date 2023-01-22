@@ -155,11 +155,13 @@ footer {
         margin-right: 5px;
         margin-bottom: 5px;
     }
-
+    .topnav {
+        margin: 5px;
+    }
 
     .header a{
         float:none;
-        font-size: 1em;
+        
         
     }
   }
