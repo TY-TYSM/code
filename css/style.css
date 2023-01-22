@@ -143,8 +143,9 @@ footer {
 @media only screen and (max-width: 400px) {
     
     .a img {
-      max-width: 100%;
-      border: none;
+      width: 280px;
+      height: 265px;
+      
       
     }
     
