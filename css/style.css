@@ -1,7 +1,7 @@
  /* Universal box sizing */
  * {   
     box-sizing: border-box;
-    
+    font-family: Arial, sans-serif;
     }
      
     /* Style the header */
@@ -14,55 +14,39 @@
     }
     
     p  { 
-        font-size: 20px;
-
-    }
-
-    .intro {
-        display:inline-block;
-        width: 40%;
-        margin-left: 5%;
-    }
-
-    
-            
-            
-          
-    
-    .rest {
-        display: block;
-        margin-left:auto;
-        margin-right: auto;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 50%;
-        float: left;
-
+        font-size: 1em;
     }
 
     h1 {
         color: black;
         justify-items: center;
         text-align: center;
-        font-size: 40px;
+        font-size: 2.5em;
+    } 
+    h2 {
+        text-align: center;
+        font-size: 1.85em;
+    }
+                
+    
+    .rest {
+        display: block;
+        margin-left:auto;
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width:45%;
+        float: left;
+
     }
         
-     
-    .b {
-        display: block;
-        width: 300px;
-    }
    
-
     body {
         background-color: #dee4e6;
     }
 
    p, h2, h3 {color: black;} 
 
-    h2 {
-        text-align: center;
-    }
     
     /* Style the links inside the navigation bar */
 .header a {
@@ -71,8 +55,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
-    
+    font-size: 1.5em;
+   
 }
 
      
@@ -82,6 +66,7 @@
         color:black;
     }
 
+    /* underline current page on navigation */
    .topnav[aria-current="page"]{
     text-decoration: underline;
    }
@@ -94,37 +79,34 @@
 
  .mapouter{position:relative;text-align:right;height:500px;width:500px;}
 
-img, iframe  {
-    
-    
-    float: none;
-   
+img, iframe  { 
     border-style: solid;
-            border-color: #968066;
-            border-width:20px;
-            
-  
-    
+    border-color: #968066;
+    border-width:20px;        
 }
 
 .one {
     display: flex;
     justify-content:space-around;
-    
-    
-}
-
-.appetizers, .mains {
-    display:flex;
+    flex-wrap: wrap;
 }
 
 
-.item {
+.two {
     display: flex;
-    background-color: black;
-    justify-content:center;
-  
+    flex-direction: column;
+    margin-left: 20px;
 }
+
+.a {
+    display: block;
+    
+}
+.b {
+    display: block;
+    width: 300px;
+}
+
 
 footer p {
     color: white;
