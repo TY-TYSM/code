@@ -90,7 +90,7 @@ img, iframe  {
 }
 
 
-.a {
+.containera {
     
     
    flex-wrap: wrap;
@@ -99,7 +99,7 @@ img, iframe  {
    margin-top: 20px;
    margin-bottom: 20px;
 }
-.c {
+.containerc {
     flex-wrap: wrap;
    width: 700px;
    margin-right: auto;
@@ -107,7 +107,7 @@ img, iframe  {
    margin-bottom: 20px;
 
 }
-.b {
+.containerb {
     display: block;
     width: 300px;
 
@@ -156,13 +156,11 @@ footer {
         margin-bottom: 5px;
     }
 
-    * {
-        justify-items: center;
-    }
 
     .header a{
         float:none;
-        margin-bottom: 20px;
+        font-size: 1em;
+        
     }
   }
 
