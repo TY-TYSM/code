@@ -12,6 +12,11 @@
         padding:0px
 
     }
+
+    .cen {
+        text-align: center;
+
+    }
     
     p  { 
         font-size: 1em;
@@ -145,8 +150,6 @@ footer {
     .containera img {
       width: 280px;
       height: 265px;
-      
-      
     }
     
 
@@ -161,8 +164,6 @@ footer {
 
     .header a{
         float:none;
-        
-        
     }
   }
 
